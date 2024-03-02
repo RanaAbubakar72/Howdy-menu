@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="main">
+        <div class="left">
+          <div>
+            <img class="logo" src="howdy logo.webp" alt="" />
+          </div>
+          <div class="location">
+            <svg
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium blink-style-vubbuv"
+              focusable="false"
+              aria-hidden="true"
+              viewBox="0 0 512.01 512.01"
+              style="fill: rgb(255, 2, 56); width: 30px; height: 30px"
+            >
+              <path
+                d="M388.89,314.055c-11.435-2.773-22.955,4.373-25.664,15.829c-2.731,11.456,4.373,22.955,15.829,25.664 c66.261,15.723,90.283,38.976,90.283,50.795c0,25.493-85.077,64-213.333,64c-128.235,0-213.333-38.507-213.333-64 c0-11.819,24.043-35.072,90.261-50.795c11.477-2.709,18.56-14.208,15.829-25.664c-2.709-11.456-14.229-18.603-25.664-15.829 C43.717,332.871,0.005,365.639,0.005,406.343c0,70.016,128.811,106.667,256,106.667c127.211,0,256-36.651,256-106.667 C512.005,365.639,468.293,332.871,388.89,314.055z"
+              ></path>
+              <path
+                d="M256.015,171.681c11.776,0,21.333-9.557,21.333-21.333s-9.557-21.333-21.333-21.333s-21.333,9.557-21.333,21.333 S244.239,171.681,256.015,171.681z"
+              ></path>
+              <path
+                d="M228.239,398.518l8.683,17.365c3.627,7.232,11.008,11.797,19.093,11.797s15.467-4.565,19.093-11.797l18.389-36.779 c22.379-44.779,49.984-88.149,76.672-130.091l12.16-19.136c15.061-23.808,23.019-51.307,23.019-79.531 c0-42.496-18.197-83.115-49.92-111.445C323.727,10.592,281.082-2.975,238.565,2.017C172.175,9.569,117.349,63.03,108.154,129.121 c-5.44,39.168,4.352,78.059,27.541,109.547C171.877,287.691,200.122,342.241,228.239,398.518z M256.015,86.347 c35.285,0,64,28.715,64,64c0,35.285-28.715,64-64,64s-64-28.715-64-64C192.015,115.062,220.73,86.347,256.015,86.347z"
+              ></path>
+            </svg>
+            <div class="deliver">
+              <ul>
+                <li class="to"><a href="#">Deliver to</a></li>
+                <li><a href="#">Model town, lahore</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="inbox">
+          <div
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-color: rgb(255, 11, 64);
+              height: 34px;
+              width: 34px;
+              border-radius: 6px;
+              cursor: pointer;
+              position: relative;
+            "
+          >
+            <div
+              style="
+                position: absolute;
+                top: -16px;
+                left: 20px;
+                font-size: 12px;
+                font-weight: bold;
+                background-color: rgb(245, 28, 28);
+                color: rgb(255, 255, 255);
+                border: 1px solid;
+                border-radius: 8px;
+                height: 24px;
+                width: 24px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 1;
+              "
+            >
+              99
+            </div>
+            <svg
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium blink-style-vubbuv"
+              focusable="false"
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              data-testid="ShoppingBagIcon"
+              style="color: rgb(185, 4, 4); font-size: 26px"
+            >
+              <path
+                d="M18 6h-2c0-2.21-1.79-4-4-4S8 3.79 8 6H6c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-8 4c0 .55-.45 1-1 1s-1-.45-1-1V8h2v2zm2-6c1.1 0 2 .9 2 2h-4c0-1.1.9-2 2-2zm4 6c0 .55-.45 1-1 1s-1-.45-1-1V8h2v2z"
+                style="fill: white"
+              ></path>
+            </svg>
+          </div>
+          <a class="button" tabindex="0" href="/login"
+            >Sign In / Register<span
+              class="MuiTouchRipple-root blink-style-w0pj6f"
+            ></span
+          ></a>
+        </div>
+      </div>
+    </header>
+    <div class="photo">
+      <!-- <img src="main img.webp" alt=""> -->
+    </div>
+    <div class="sticky">
+      <nav>
+        <ul>
+          <li>DEALE-</li>
+          <li>WOWDY HOURS</li>
+          <li>APPETIZERS</li>
+          <li>MUTTON BURGERS</li>
+          <li>CHARCOAL GRILLED BURGERS</li>
+          <li>GEEF BURGERS</li>
+          <li>FRIDE BURGERS</li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="search">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0,0,256,256"
+          width="30px"
+          height="30px"
+        >
+          <g
+            fill="#d73939"
+            fill-rule="nonzero"
+            stroke="none"
+            stroke-width="1"
+            stroke-linecap="butt"
+            stroke-linejoin="miter"
+            stroke-miterlimit="10"
+            stroke-dasharray=""
+            stroke-dashoffset="0"
+            font-family="none"
+            font-weight="none"
+            font-size="none"
+            text-anchor="none"
+            style="mix-blend-mode: normal"
+          >
+            <g transform="scale(5.12,5.12)">
+              <path
+                d="M21,3c-9.39844,0 -17,7.60156 -17,17c0,9.39844 7.60156,17 17,17c3.35547,0 6.46094,-0.98437 9.09375,-2.65625l12.28125,12.28125l4.25,-4.25l-12.125,-12.09375c2.17969,-2.85937 3.5,-6.40234 3.5,-10.28125c0,-9.39844 -7.60156,-17 -17,-17zM21,7c7.19922,0 13,5.80078 13,13c0,7.19922 -5.80078,13 -13,13c-7.19922,0 -13,-5.80078 -13,-13c0,-7.19922 5.80078,-13 13,-13z"
+              ></path>
+            </g>
+          </g>
+        </svg>
+        <input
+          type="text"
+          placeholder="search products here"
+          class="search-input"
+        />
+        
+      </div>
+      <h2 class="title">Deals-</h2>
+      <div class="deals-container">
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal2.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal3.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="title">Appetizers</h2>
+      <div class="deal1">
+        <div>
+          <img class="img" src="deal4.webp" alt="" height="150px" />
+        </div>
+        <div>
+          <div>
+            <h5 style="font-weight: bold">Solo Girll Combo</h5>
+            <p class="deal-desc">Wrangler or Rango Tango with Fries & Coke.</p>
+          </div>
+          <div class="button-container">
+            <button class="price">Rs.666.00</button>
+            <div class="add-to-cart-wrapper">
+              <button class="add-to-cart">Add to cart</button>
+              <img class="dil" src="heart.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="title">Mutton burgur</h2>
+      <div class="deal1">
+        <div>
+          <img class="img" src="deal5.webp" alt="" height="150px" />
+        </div>
+        <div>
+          <div>
+            <h5 style="font-weight: bold">Solo Girll Combo</h5>
+            <p class="deal-desc">Wrangler or Rango Tango with Fries & Coke.</p>
+          </div>
+          <div class="button-container">
+            <button class="price">Rs.666.00</button>
+            <div class="add-to-cart-wrapper">
+              <button class="add-to-cart">Add to cart</button>
+              <img class="dil" src="heart.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="title">Charcoal Grilled burgur</h2>
+      <div class="deals-container">
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal7.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal8.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="title">Beef burgers</h2>
+      <div class="deals-container">
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="title">Fried burgers</h2>
+      <div class="deals-container">
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="title">Smash Burgers</h2>
+      <div class="deals-container">
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="title">Rotisserie</h2>
+      <div class="deal1">
+        <div>
+          <img class="img" src="deal1.webp" alt="" height="150px" />
+        </div>
+        <div>
+          <div>
+            <h5 style="font-weight: bold">Solo Girll Combo</h5>
+            <p class="deal-desc">Wrangler or Rango Tango with Fries & Coke.</p>
+          </div>
+
+          <div class="button-container">
+            <button class="price">Rs.666.00</button>
+            <div class="add-to-cart-wrapper">
+              <button class="add-to-cart">Add to cart</button>
+              <img class="dil" src="heart.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="title">Chicken steaks</h2>
+      <div class="deals-container">
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="title">Kids Menu</h2>
+      <div class="deals-container">
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="title">Fried & Grilled Wings</h2>
+      <div class="deals-container">
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deal1">
+          <div>
+            <img class="img" src="deal1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="title">fryz</h2>
+      <div class="deals-container">
+        <div class="deal1">
+          <div>
+            <img class="img" src="fryz1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deal1">
+          <div>
+            <img class="img" src="fryz1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deal1">
+          <div>
+            <img class="img" src="fryz1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="title">Desserts</h2>
+      <div class="deals-container">
+        <div class="deal1">
+          <div>
+            <img class="img" src="metha3.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deal1">
+          <div>
+            <img class="img" src="metha2.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deal1">
+          <div>
+            <img class="img" src="metha1.webp" alt="" height="150px" />
+          </div>
+          <div>
+            <div>
+              <h5 style="font-weight: bold">Solo Girll Combo</h5>
+              <p class="deal-desc">
+                Wrangler or Rango Tango with Fries & Coke.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="price">Rs.666.00</button>
+              <div class="add-to-cart-wrapper">
+                <button class="add-to-cart">Add to cart</button>
+                <img class="dil" src="heart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <div class="footer-img">
+          <img src="footer img.webp" alt="" />
+        </div>
+        <div class="footer-item">
+          <a href="faq">Howdy</a>
+          <a href="faq">Phone: 042-1111-46939</a>
+          <a href="faq">Email: customer.support@howdypakistan.com</a>
+          <a href="faq"
+            >Address: Howdy-MODEL TOWN LINK ROAD, Metro Cash & Carry, Block 11
+            Q, Model</a
+          >
+          <div class="google app">
+            <img src="google play.png" alt="" width="150px" />
+            <img src="app store.png" alt="" width="150px" />
+          </div>
+        </div>
+        <div class="footer-item">
+          <a href="faq"><h4>Our Timing</h4></a>
+          <a href="faq">Monday-thursday</a>
+          <a href="faq">Friday-sunday</a>
+          <h4><a href="faq">Follow us:</a></h4>
+          <div>
+            <img src="facebook.webp" alt="" width="45px" />
+            <img src="instagram.png" alt="" width="60px" />
+          </div>
+        </div>
+        <div class="footer-item">
+          <a href="faq">12:00 PM - 01:00AM</a>
+          <a href="faq">12:30 PM - 01:00 AM </a>
+        </div>
+      </div>
+      <div class="end">© 2023 Powered by Blink Co.</div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+ 
